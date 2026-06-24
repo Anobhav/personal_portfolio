@@ -1,7 +1,7 @@
 export default function Education(){
     return(
         <>
-            <h1>education</h1>
+            <h1 className='h-200'>education</h1>
         </>
     )
 };
