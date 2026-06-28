@@ -13,7 +13,7 @@ export default function Education() {
             score: "76.6%",
         },
         "B.Tech": {
-            college:"SRM",
+            college:"S.R.M Chennai",
             year: "2022-2026",
             score: "8.81 CGPA",
         },
