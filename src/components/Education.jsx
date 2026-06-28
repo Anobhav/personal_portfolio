@@ -3,14 +3,17 @@ import SpotlightCard from "./SpotlightCard";
 export default function Education() {
     const educationData = {
         "10th": {
+            board:"CBSE",
             year: "2019-2020",
             score: "76.5%",
         },
         "12th": {
+            board:"CBSE",
             year: "2021-2022",
             score: "76.6%",
         },
         "B.Tech": {
+            college:"SRM",
             year: "2022-2026",
             score: "8.81 CGPA",
         },
@@ -37,6 +40,10 @@ export default function Education() {
 
                             <p className="text-gray-300">
                                 {details.score}
+                            </p>
+
+                            <p className="text-sm text-gray-300 mt-2">
+                                {details.board || details.college}
                             </p>
                         </div>
                     </SpotlightCard>

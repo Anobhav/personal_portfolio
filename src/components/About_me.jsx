@@ -15,18 +15,19 @@ export default function AboutMe() {
 
         <SplitText
           text="Anobhav Singh"
-          className="text-6xl font-bold mt-4"
+          className="text-6xl font-bold mt-4 text-cyan-200"
           splitType="chars"
           delay={50}
           duration={1.2}
         />
       </div>
       <div className="absolute top-1/3 left-0 w-full mt-32 flex flex-col items-center animate-fadein">
-        <Marquee/>
-        <p className="mt-28 max-w-3xl px-6 text-center text-lg">
+        <p className="mb-28 mt-12 max-w-3xl px-6 text-center text-lg">
           I build things that stay quiet by design simple on the surface,
           purposeful underneath and free of noise.
         </p>
+        <Marquee/>
+        
       </div>
     </div>
   );

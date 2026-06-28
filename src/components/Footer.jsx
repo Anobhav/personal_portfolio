@@ -6,23 +6,23 @@ export default function Footer(){
         <>
             <div className="grid grid-cols-1 md:grid-cols-3 items-center p-2 md:pb-12 md:px-8">
     
-                <p className="text-center md:text-left order-2 md:order-1">
+                <p className="text-center md:text-left order-2 md:order-1 text-xl">
                     © 2026 Anobhav Singh
                 </p>
 
                 <div className="flex justify-center gap-6 order-1 p-2 md:order-2">
                     <a href="https://www.linkedin.com/in/anobhav-singh-a97ba8271/" target="_blank" rel="noreferrer">
-                        <CiLinkedin />
+                        <CiLinkedin className="text-3xl"/>
                     </a>
                     <a href="https://github.com/Anobhav" target="_blank" rel="noreferrer">
-                        <FiGithub />
+                        <FiGithub className="text-3xl"/>
                     </a>
                     <a href="https://leetcode.com/u/Anobhav/" target="_blank" rel="noreferrer">
-                        <TbBrandLeetcode />
+                        <TbBrandLeetcode className="text-3xl"/>
                     </a>
                 </div>
 
-                <p className="text-center md:text-right order-3">
+                <p className="text-center md:text-right order-3 text-xl">
                     singhanobhav@gmail.com
                 </p>
 
