@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import {Element} from 'react-scroll'
 import BubbleBackground from './components/BubbleBackground';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   return (
