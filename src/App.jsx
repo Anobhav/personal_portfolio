@@ -5,10 +5,12 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import {Element} from 'react-scroll'
 import BubbleBackground from './components/BubbleBackground';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   return (
+    <>
+    <Analytics />
     <div className='bg-black text-white font-Space-Grostesk min-h-screen font-space relative overflow-x-hidden'>
 
       <BubbleBackground/>
@@ -32,5 +34,6 @@ export default function App() {
         <Footer/>    
       </div>
     </div>
+    </>
   );
 }
